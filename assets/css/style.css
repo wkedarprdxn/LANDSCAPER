@@ -292,7 +292,9 @@ nav li a:hover {
 .btn {
     margin: 10px 10px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
+    border: none;
+    font-size: larger;
 }
 
 .btn-green {
@@ -301,6 +303,57 @@ nav li a:hover {
 
 .btn-green:hover {
     background-color: lightblue;
+}
+
+
+/* -------------------MAIN section--------------- */
+
+main {
+    background-color: whitesmoke;
+}
+
+.welcome {
+    display: table;
+}
+
+.welcome .col-2 {
+    display: table-cell;
+    width: 49%;
+    vertical-align: top;
+}
+
+.col-2 h3 {
+    font-size: xx-large;
+    margin: 15px 0px;
+}
+
+.col-2 h3::after {
+    content: '';
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #53ff04;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    left: calc(50% - 225px);
+}
+
+.col-2 p {
+    line-height: 28px;
+}
+
+.col-2 .row {
+    margin: 10px 0px;
+}
+
+.col-2 figure {
+    padding: 20px;
+}
+
+.col-2 figure figcaption {
+    font-size: x-large;
+    margin: 10px 0px;
 }
 
 

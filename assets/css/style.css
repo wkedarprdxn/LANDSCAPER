@@ -639,6 +639,70 @@ main {
   footer styling starts here
 =================================*/
 
+footer {
+    padding-bottom: 20px;
+    background-color: rgb(53, 50, 50);
+    text-align: center;
+}
+
+.footer li {
+    margin: 0px 18px;
+}
+
+.footer li a {
+    margin: 20px 0px;
+    background-color: rgb(97, 91, 91);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 18px;
+}
+
+.footer li a:hover {
+    background-color: whitesmoke;
+}
+
+.footer p {
+    margin: 20px 0px;
+    color: rgb(199, 197, 197);
+}
+
+.footer .dark {
+    color: aliceblue;
+    text-shadow: aliceblue 0.5px 0.5px;
+}
+
+.facebook::before {
+    font-family: "Font Awesome 5 Brands";
+    /* font-weight: 900; */
+    content: "\f39e";
+    color: green;
+    font-size: x-large;
+    /* margin: 20px 22px 20px; */
+    cursor: pointer;
+}
+
+.twitter::before {
+    font-family: "Font Awesome 5 Brands";
+    /* font-weight: 900; */
+    content: "\f099";
+    color: green;
+    font-size: x-large;
+    /* margin: 20px 22px 20px; */
+    cursor: pointer;
+}
+
+.gplus::before {
+    font-family: "Font Awesome 5 Brands";
+    /* font-weight: 900; */
+    content: "\f0d5";
+    color: green;
+    font-size: x-large;
+    /* margin: 20px 22px 20px; */
+    cursor: pointer;
+}
+
 
 /*=================================
   footer styling ends here

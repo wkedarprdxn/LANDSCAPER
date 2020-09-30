@@ -312,7 +312,11 @@ main {
     background-color: whitesmoke;
 }
 
+
+/* ----------welcome section------------ */
+
 .welcome {
+    padding-top: 50px;
     display: table;
 }
 
@@ -354,6 +358,67 @@ main {
 .col-2 figure figcaption {
     font-size: x-large;
     margin: 10px 0px;
+}
+
+
+/* --------------service section--------------- */
+
+.bg-green {
+    background-color: rgb(115, 156, 32);
+    padding-top: 20px;
+}
+
+.services {
+    text-align: center;
+    color: white;
+}
+
+.services h3 {
+    font-size: xx-large;
+    margin: 50px 0px;
+}
+
+.services p {
+    margin: 0px 20px;
+}
+
+.services h3::after {
+    content: '';
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #ff7d04;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    left: calc(50% - 25px);
+}
+
+.services .row {
+    padding-bottom: 100px;
+}
+
+.services .row .col-4 {
+    display: inline-block;
+    width: 24%;
+}
+
+.row .col-4 figcaption {
+    font-size: x-large;
+    margin: 15px 0px;
+}
+
+.col-4 figure {
+    padding: 32px 32px 0px;
+}
+
+.col-4 figure img {
+    border-radius: 50%;
+    border: solid rgb(183, 241, 125) 10px;
+}
+
+.col-4 figure p {
+    padding: 0px 20px;
 }
 
 
